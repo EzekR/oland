@@ -1,11 +1,7 @@
-+========================================+
-| Special with  CountDown MODULE v. 1.3  | 
-|         www.oc-extensions.com          |
-+========================================+
++===========================================+
+|           oland kid's world               |
+|based on Opencart, a weixin market suitable|
+|for most products                          | 
++===========================================+
 
-
-HOW TO INSTALL/USE
-------------------
-
-Full install/use documentation : http://www.oc-extensions.com/Special-Price-Countdown    (see Help Tab)
- 
+--------Developed By Stefano, 2016 09--------
