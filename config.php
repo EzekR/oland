@@ -1,21 +1,21 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/excited/');
+define('HTTP_SERVER', 'http://localhost/oland/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/excited/');
+define('HTTPS_SERVER', 'http://localhost/oland/');
 
 // DIR
-define('DIR_APPLICATION', 'C:\wamp\www\excited/catalog/');
-define('DIR_SYSTEM', 'C:\wamp\www\excited/system/');
-define('DIR_DATABASE', 'C:\wamp\www\excited/system/database/');
-define('DIR_LANGUAGE', 'C:\wamp\www\excited/catalog/language/');
-define('DIR_TEMPLATE', 'C:\wamp\www\excited/catalog/view/theme/');
-define('DIR_CONFIG', 'C:\wamp\www\excited/system/config/');
-define('DIR_IMAGE', 'C:\wamp\www\excited/image/');
-define('DIR_CACHE', 'C:\wamp\www\excited/system/cache/');
-define('DIR_DOWNLOAD', 'C:\wamp\www\excited/download/');
-define('DIR_LOGS', 'C:\wamp\www\excited/system/logs/');
+define('DIR_APPLICATION', 'C:\wamp\www\oland/catalog/');
+define('DIR_SYSTEM', 'C:\wamp\www\oland/system/');
+define('DIR_DATABASE', 'C:\wamp\www\oland/system/database/');
+define('DIR_LANGUAGE', 'C:\wamp\www\oland/catalog/language/');
+define('DIR_TEMPLATE', 'C:\wamp\www\oland/catalog/view/theme/');
+define('DIR_CONFIG', 'C:\wamp\www\oland/system/config/');
+define('DIR_IMAGE', 'C:\wamp\www\oland/image/');
+define('DIR_CACHE', 'C:\wamp\www\oland/system/cache/');
+define('DIR_DOWNLOAD', 'C:\wamp\www\oland/download/');
+define('DIR_LOGS', 'C:\wamp\www\oland/system/logs/');
 
 // DB
 define('DB_DRIVER', 'mysqli');

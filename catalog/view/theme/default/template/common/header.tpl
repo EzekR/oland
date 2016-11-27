@@ -19,6 +19,7 @@
     <script type="text/javascript" src="catalog/view/javascript/light7.js"></script>
     <script type="text/javascript" src="catalog/view/javascript/light7-swipeout.js"></script>
     <script type="text/javascript" src="catalog/view/javascript/light7-swiper.js"></script>
+    <script type="text/javascript" src="catalog/view/javascript/jquery.qrcode.min.js"></script>
     <!--script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
     <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
     <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script-->

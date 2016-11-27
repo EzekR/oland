@@ -1,12 +1,33 @@
 <?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
-<div id="content"><?php echo $content_top; ?>
-  <div class="breadcrumb">
-    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
-    <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
-    <?php } ?>
+<div class="page-group">
+        <!-- 单个page ,第一个.page默认被展示-->
+        <div class="page">
+            <!-- 标题栏 -->
+            <header class="bar bar-nav">
+            <button class="button button-link button-nav pull-left">
+            <a href="<?php echo $account; ?>"><span class="icon icon-left back"></span></a>
+            </button>
+                <h1 class="title">订单详情</h1>
+            </header>
+<div class="content">
+  <div class="card demo-card-header-pic">
+    <div valign="bottom" class="card-header color-white no-border no-padding">
+      <div id="qrcode" style="margin: 0 auto; margin-top: 1rem"></div>
+    </div>
+    <div class="card-content">
+      <div class="card-content-inner">
+        <p class="color-gray">订单日期：<?php echo $date_added; ?></p>
+      </div>
+    </div>
+    <div class="card-footer">
+      <a href="#" class="link">赞</a>
+      <a href="#" class="link">更多</a>
+    </div>
   </div>
-  <h1><?php echo $heading_title; ?></h1>
-  <table class="list">
+  <script type="text/javascript">
+  $('#qrcode').qrcode("http://www.baidu.com");
+  </script>
+  <!--table class="list">
     <thead>
       <tr>
         <td class="left" colspan="2"><?php echo $text_order_detail; ?></td>
@@ -138,5 +159,6 @@
   <div class="buttons">
     <div class="right"><a href="<?php echo $continue; ?>" class="button"><?php echo $button_continue; ?></a></div>
   </div>
-  <?php echo $content_bottom; ?></div>
+  <?php echo $content_bottom; ?></div-->
+</div>
 <?php echo $footer; ?> 
