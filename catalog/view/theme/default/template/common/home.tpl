@@ -66,21 +66,21 @@
     <div class="swiper-pagination"></div>
   </div>
 
-  <div class="row">
+  <div class="row home-menu">
     <div class="col-25">
-      <a href="<?php echo $home;?>"><img src="catalog/view/theme/default/image/outlander/catalog_1.png">
+      <a href="<?php echo $home;?>"><img src="catalog/view/theme/default/image/outlander/icon1.png">
       <h3>欢乐天堂</h3></a>
     </div>
     <div class="col-25">
-      <a href="<?php echo $home;?>"><img src="catalog/view/theme/default/image/outlander/catalog_2.png">
+      <a href="<?php echo $home;?>"><img src="catalog/view/theme/default/image/outlander/icon2.png">
       <h3>理想源泉</h3></a>
     </div>
     <div class="col-25">
-      <a href="<?php echo $home;?>"><img src="catalog/view/theme/default/image/outlander/catalog_3.png">
+      <a href="<?php echo $home;?>"><img src="catalog/view/theme/default/image/outlander/icon3.png">
       <h3>亲子俱乐部</h3></a>
     </div>
     <div class="col-25">
-      <a href="<?php echo $home;?>"><img src="catalog/view/theme/default/image/outlander/catalog_4.png">
+      <a href="<?php echo $home;?>"><img src="catalog/view/theme/default/image/outlander/icon4.png">
       <h3>海洋指南</h3></a>
     </div>
   </div>
@@ -91,31 +91,28 @@
     <div class="col-25" style="margin-top: 0.1rem"><hr></div>
     <div class="col-15">&nbsp</div>
   </div>
-  <div class="row">
-    <div class="col-33" style="margin-left: 8%; height: 180px; border-right: 1px solid #000;">
+  <div class="row theme-activity">
+    <div class="col-33" style="margin-left: 8%; height: 180px; border-right: 1px solid #efeff4;">
       <div class="img-container">
-      <img src="catalog/view/theme/default/image/outlander/cat-name1.png">
-      <p>开启宝宝无限想象力</p>
-      <img src="catalog/view/theme/default/image/outlander/cat1.png">
+      <h4>天空下的梦想</h4>
+      <p>开启宝宝想象力</p>
+      <img src="catalog/view/theme/default/image/outlander/sky.png">
       </div>
     </div>
-    <div class="col-33" style="margin-left: 2%; border-right: 1px solid #000">
+    <div class="col-33" style="margin-left: 2%; height: 180px; border-right: 1px solid #efeff4">
       <div class="row">
         <div class="img-container">
-          <img src="catalog/view/theme/default/image/outlander/cat-name2.png">
-          <p>萌娃的理想源泉</p>
-          <img src="catalog/view/theme/default/image/outlander/cat2.png">
+          <h4 style="color: #5CF14A; text-align: center">想象空间</h4>
+          <p style="text-align: center">萌娃的理想源泉</p>
+          <img src="catalog/view/theme/default/image/outlander/imagine.png">
         </div>
-      </div>
-      <div class="row">
-        <img src="catalog/view/theme/default/image/outlander/cat-name4.png"><p>学习，从这里起步</p>
       </div>
     </div>
     <div class="col-33">
       <div class="img-container" style="margin-left: 0.1rem">
-      <img src="catalog/view/theme/default/image/outlander/cat-name3.png">
+      <h4 style="color: #FFA500">狂欢派对</h4>
       <p>亲子狂欢俱乐部</p>
-      <img src="catalog/view/theme/default/image/outlander/cat3.png">
+      <img src="catalog/view/theme/default/image/outlander/party.png">
       </div>
     </div>
   </div>

@@ -37,12 +37,12 @@
    <div class="img-portrait">
      <img src="catalog/view/theme/default/image/outlander/baby_portrait.png">
    </div>
-   <div class="row" style="margin-top: 1rem">
+   <!--div class="row" style="margin-top: 1rem">
      <div class="col-50 acc-wish" style="border-right: 1px solid #000"><p>5</p><p>我关注的</p></div>
      <div class="col-50 acc-wish"><p>15</p><p>我收藏的</p></div>
-   </div>
+   </div-->
  </div>
- <div class="row acc-menu">
+ <div class="row acc-menu" style="display: none">
    <div class="col-25"><img src="catalog/view/theme/default/image/outlander/paying.png"><p>待付款</p></div>
    <div class="col-25"><img src="catalog/view/theme/default/image/outlander/subscribed.png"><p>已报名</p></div>
    <div class="col-25"><img src="catalog/view/theme/default/image/outlander/comment.png"><p>待评价</p></div>
@@ -51,16 +51,8 @@
  <div class="list-block list-acc">
     <ul>
       <li class="item-content">
-        <div class="item-media"><i class="icon icon-f7"></i></div>
         <div class="item-inner">
-          <div class="item-title"><span class="icon icon-emoji"></span> 我的宝宝</div>
-          <div class="item-after"><span class="icon icon-right"></span></div>
-        </div>
-      </li>
-      <li class="item-content">
-        <div class="item-media"><i class="icon icon-f7"></i></div>
-        <div class="item-inner">
-          <div class="item-title"><span class="icon icon-card"></span> 会员中心</div>
+          <div class="item-title"><a href="<?php echo $baby; ?>"><span class="icon icon-emoji"></span> 我的宝宝</a></div>
           <div class="item-after"><span class="icon icon-right"></span></div>
         </div>
       </li>
@@ -70,7 +62,6 @@
 <div class="list-block list-acc">
     <ul>
       <li class="item-content">
-        <div class="item-media"><i class="icon icon-f7"></i></div>
         <div class="item-inner">
           <div class="item-title"><a href="<?php echo $order; ?>"><span class="icon icon-cart"></span> 我购买的商品</a></div>
           <div class="item-after"><span class="icon icon-right"></span></div>
@@ -78,37 +69,20 @@
         
       </li>
       <li class="item-content">
-        <div class="item-media"><i class="icon icon-f7"></i></div>
         <div class="item-inner">
-          <div class="item-title"><span class="icon icon-refresh"></span> 售后/退款</div>
+          <div class="item-title"><a href="<?php echo $recurring; ?>"><span class="icon icon-refresh"></span> 售后/退款</a></div>
           <div class="item-after"><span class="icon icon-right"></span></div>
         </div>
       </li>
       <li class="item-content">
-        <div class="item-media"><i class="icon icon-f7"></i></div>
         <div class="item-inner">
-          <div class="item-title"><span class="icon icon-me"></span> 账户余额</div>
+          <div class="item-title"><a href="<?php echo $reward; ?>"><span class="icon icon-star"></span> 我的积分</a></div>
           <div class="item-after"></div>
         </div>
       </li>
       <li class="item-content">
-        <div class="item-media"><i class="icon icon-f7"></i></div>
         <div class="item-inner">
-          <div class="item-title"><span class="icon icon-star"></span> 我的积分</div>
-          <div class="item-after"></div>
-        </div>
-      </li>
-      <li class="item-content">
-        <div class="item-media"><i class="icon icon-f7"></i></div>
-        <div class="item-inner">
-          <div class="item-title"><span class="icon icon-gift"></span> 我的优惠码</div>
-          <div class="item-after"></div>
-        </div>
-      </li>
-      <li class="item-content">
-        <div class="item-media"><i class="icon icon-f7"></i></div>
-        <div class="item-inner">
-          <div class="item-title"><span class="icon icon-code"></span> 我的推荐码</div>
+          <div class="item-title"><a href="<?php echo $coupon; ?>"><span class="icon icon-gift"></span> 我的优惠码</a></div>
           <div class="item-after"></div>
         </div>
       </li>
@@ -118,9 +92,8 @@
    <div class="list-block list-acc">
     <ul>
       <li class="item-content">
-        <div class="item-media"><i class="icon icon-f7"></i></div>
         <div class="item-inner">
-          <div class="item-title"><span class="icon icon-phone"></span> 客服中心</div>
+          <div class="item-title"><a href="<?php echo $client_service; ?>"><span class="icon icon-phone"></span> 客服中心</a></div>
           <div class="item-after"></div>
         </div>
       </li>
@@ -129,9 +102,8 @@
    <div class="list-block list-acc">
     <ul>
       <li class="item-content">
-        <div class="item-media"><i class="icon icon-f7"></i></div>
         <div class="item-inner">
-          <div class="item-title"><span class="icon icon-friends"></span> 邀请朋友来海洋村</div>
+          <div class="item-title"><a href="<?php echo $invitation; ?>"><span class="icon icon-friends"></span> 邀请朋友来海洋村</a></div>
           <div class="item-after"></div>
         </div>
       </li>

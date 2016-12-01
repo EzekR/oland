@@ -13,7 +13,7 @@ class ControllerAccountOrder extends Controller {
 
 		$this->load->model('account/order');
 
-
+		$this->data['qrcode'] = $this->url->link('sale/order/info', 'token=' . $this->session->data['token'] . '&order_id=' . $result['order_id'], 'SSL');
 
 		if (isset($this->request->get['order_id'])) {
 			$order_info = $this->model_account_order->getOrder($this->request->get['order_id']);
@@ -50,6 +50,7 @@ class ControllerAccountOrder extends Controller {
 		$this->document->setTitle($this->language->get('heading_title'));
 
 		$this->data['breadcrumbs'] = array();
+
 
 		$this->data['account'] = $this->url->link('account/account', '', 'SSL');
 

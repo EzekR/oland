@@ -1,10 +1,12 @@
 <?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
-<div id="content"><?php echo $content_top; ?>
-  <div class="breadcrumb">
-    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
-    <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
-    <?php } ?>
-  </div>
+<div class="page-group">
+        <!-- 单个page ,第一个.page默认被展示-->
+        <div class="page">
+            <!-- 标题栏 -->
+            <header class="bar bar-nav">
+                <h1 class="title">积分</h1>
+            </header>
+<div class="content"><?php echo $content_top; ?>
   <h1><?php echo $heading_title; ?></h1>
   <p><?php echo $text_total; ?><b> <?php echo $total; ?></b>.</p>
   <table class="list">
@@ -37,7 +39,7 @@
   </table>
   <div class="pagination"><?php echo $pagination; ?></div>
   <div class="buttons">
-    <div class="right"><a href="<?php echo $continue; ?>" class="button"><?php echo $button_continue; ?></a></div>
+    <div class="right"><a href="<?php echo $continue; ?>" class="button button-fill button-success"><?php echo $button_continue; ?></a></div>
   </div>
   <?php echo $content_bottom; ?></div>
 <?php echo $footer; ?>

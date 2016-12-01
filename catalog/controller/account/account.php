@@ -68,6 +68,7 @@ class ControllerAccountAccount extends Controller {
 		$this->data['recurring'] = $this->url->link('account/recurring', '', 'SSL');
 		$this->data['logout'] = $this->url->link('account/logout', '', 'SSL');
 		$this->data['baby'] = $this->url->link('account/baby', '', 'SSL');
+		$this->data['client_service'] = $this->url->link('account/service', '', 'SSL');
 
 
 		if ($this->config->get('reward_status')) {

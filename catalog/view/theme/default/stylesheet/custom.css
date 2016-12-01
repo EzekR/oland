@@ -105,7 +105,7 @@
 }
 
 .acc-img{
-	margin-left: 0; background: url(../image/outlander/acc-bg.png); background-repeat: no-repeat; background-size: 375px 240px; width: 375px; height: 240px; text-align: center;
+	margin-left: 0; background: url(../image/outlander/acc-bg.png); background-repeat: no-repeat; background-size: 375px 200px; width: 375px; height: 200px; text-align: center;
 }
 
 .img-portrait img{
@@ -151,4 +151,42 @@
 
 .city-now{
 	height: 3rem; display: block; vertical-align: center;
+}
+
+.col-25 a>img{
+	width: 60px; height: 60px; margin-left: 0.5rem;
+}
+
+.home-menu{
+	background: #fff;
+}
+
+.home-menu .col-25{
+	margin-top: 0.5rem;
+}
+
+.theme-activity{
+	background: #fff;
+}
+
+.img-container h4{
+	color: #26A5FF; margin-top: 0; margin-bottom: 0;
+}
+
+.toy-menu{
+	margin-left: 0.1rem;
+}
+
+.bar-footer-secondary .button{
+	border-radius: 0;
+	position: inherit;
+	height: 2rem;
+	line-height: 2rem;
+}
+
+.my-baby{
+	margin-top: 0.5rem;
+	color: #4CD964;
+	text-align: center;
+	margin-bottom: 0.5rem;
 }

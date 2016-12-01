@@ -45,29 +45,29 @@
       <div id="tab1" class="tab active">
         <div class="content-block">
           <div style="display: flex; background-color: #fff">
-            <div style="width: 40%; border-right: 1px solid #a9a9a9">
-              <div class="img-container"><a href="<?php echo $kill; ?>">
+            <div style="width: 40%; border-right: 1px solid #efeff4">
+              <div class="img-container" style="margin-top: 0.5rem; margin-left: 0.5rem"><a href="<?php echo $kill; ?>">
             <img src="catalog/view/theme/default/image/outlander/kill.png">
             品牌玩具秒杀
-            <img src="catalog/view/theme/default/image/outlander/kill_img.png"></a>
+            <img src="catalog/view/theme/default/image/outlander/seckill.png" style="margin-top: 2rem"></a>
             </div>
             </div>
             <div style="width: 60%; display: flex; flex-wrap: wrap ">
-              <div style="width: 50%; border-right: 1px solid #a9a9a9; border-bottom: 1px solid #a9a9a9">
+              <div style="width: 50%; border-right: 1px solid #efeff4; border-bottom: 1px solid #efeff4">
               <div class="sub-container">
               <img src="catalog/view/theme/default/image/outlander/rabbit_1.png"><br>
               热门玩具精选
               <img src="catalog/view/theme/default/image/outlander/rua_1.png">
               </div>
               </div>
-              <div style="width: 50%; border-bottom: 1px solid #a9a9a9">
+              <div style="width: 50%; border-bottom: 1px solid #efeff4">
                 <div class="sub-container">
                 <img src="catalog/view/theme/default/image/outlander/rabbit_2.png"><br>
                 低价限量抢
                 <img src="catalog/view/theme/default/image/outlander/rua_2.png">
                 </div>
               </div>
-              <div style="width: 50%; border-right: 1px solid #a9a9a9;">
+              <div style="width: 50%; border-right: 1px solid #efeff4;">
               <div class="sub-container">
               <img src="catalog/view/theme/default/image/outlander/mom.png"><br>
               低价限量抢
@@ -84,32 +84,32 @@
             </div>
           </div>
           <div class="row" style="background-color: #fff; margin-top: 0.8rem">
-      <div class="col-25" style="border-right: 1px solid #a9a9a9; height: 117px">
+      <div class="col-25 toy-menu" style="border-right: 1px solid #efeff4; height: 117px; margin-left: 3%">
         <div class="cat-md">
         <h6>手工DIY</h6>
         <h6>开发无限可能</h6>
-        <img src="catalog/view/theme/default/image/outlander/cat-1.png">
+        <img src="catalog/view/theme/default/image/outlander/diy.png">
       </div>
       </div>
-      <div class="col-25" style="border-right: 1px solid #a9a9a9; height: 117px">
+      <div class="col-25 toy-menu" style="border-right: 1px solid #efeff4; height: 117px; margin-left: 3%">
       <div class="cat-md">
         <h6>益智积木</h6>
         <h6>欧洲原产榉木</h6>
-        <img src="catalog/view/theme/default/image/outlander/cat-2.png">        
+        <img src="catalog/view/theme/default/image/outlander/blocks.png">        
       </div>
       </div>
-      <div class="col-25" style="border-right: 1px solid #a9a9a9">
+      <div class="col-25 toy-menu" style="border-right: 1px solid #efeff4; margin-left: 3%">
         <div class="cat-md">
         <h6>磁力片</h6>
         <h6>宝宝健康玩具</h6>
-        <img src="catalog/view/theme/default/image/outlander/cat-3.png">        
+        <img src="catalog/view/theme/default/image/outlander/mag.png">        
       </div>
       </div>
-      <div class="col-25">
+      <div class="col-25 toy-menu" style="margin-left: 4%">
         <div class="cat-md">
         <h6>手工DIY</h6>
         <h6>开发无限可能</h6>
-        <img src="catalog/view/theme/default/image/outlander/cat-4.png">        
+        <img src="catalog/view/theme/default/image/outlander/toy.png">        
       </div>
       </div>
 </div>

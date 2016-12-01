@@ -4,8 +4,8 @@
         <div class="page">
             <!-- 标题栏 -->
             <header class="bar bar-nav">
-            <button class="button button-link button-nav pull-right">
-            <a href="<?php echo $cart; ?>"><span class="icon icon-cart"></span></a>
+            <button class="button button-link button-nav pull-left">
+            <a href="<?php echo $home; ?>"><span class="icon icon-left"></span></a>
             </button>
                 <h1 class="title">商品详情</h1>
             </header>
@@ -28,6 +28,15 @@
     <span class="tab-label">我的</span>
   </a>
 </nav>
+<div class="bar bar-footer-secondary" style="margin-top: -0.5rem; display: flex; padding-right: 0;">
+  <div style="width: 20%; margin-left: 1rem; margin-top: 0.3rem">
+    <a class="tab-item" href="<?php echo $cart; ?>">
+    <span class="icon icon-cart"></span>
+  </a>
+  </div>
+  <div style="width: 40%"><input type="button" class="button button-fill button-danger" onclick="addToCart('<?php echo $product_id; ?>')" value="加入购物车"></div>
+  <div style="width: 40%"><a href="<?php echo $checkout; ?>" class="button button-fill button-warning" onclick="addToCart('<?php echo $product_id?>')">立即购买</a></div>
+</div>
 <div class="content">
   <!-- Slider -->
   <div class="swiper-container" data-space-between='10'>
@@ -221,13 +230,13 @@
         </div>
       </li>
     </div>
-    <div class="row" style="margin-left: 0">
+    <!--div class="row" style="margin-left: 0">
     <div class="col-50"><input type="button" class="button button-fill button-danger" onclick="addToCart('<?php echo $product_id; ?>')" value="加入购物车"></div>
     <div class="col-50"><div class="cart">
           <a href="<?php echo $checkout; ?>" class="button button-fill button-warning" onclick="addToCart('<?php echo $product_id?>')">立即购买</a>       
         <div class="minimum"><?php echo $text_minimum; ?></div>
       </div></div>
-      </div>
+      </div-->
       <a href="#" class="close-popup"><div style="width: 360px; height: 300px"></div></a>
     </div>
   </div>

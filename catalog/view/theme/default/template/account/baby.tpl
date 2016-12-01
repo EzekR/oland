@@ -7,7 +7,7 @@
             <button class="button button-link button-nav pull-right">
             <span class="icon icon-emoji"></span>
             </button>
-                <h1 class="title">成长</h1>
+                <h1 class="title">我的宝宝</h1>
             </header>
 
    <nav class="bar bar-tab">
@@ -35,12 +35,33 @@
 	<div id="add-baby" class="button button-dark" style="text-align: center; margin: 0 auto; margin-top: 22rem; width: 50%"><a href="<?php echo $addbaby; ?>">添加宝宝</a></div>
 </div>
 <?php } else {?>
-<div class="content-block">
-	<h1 style="text-align: center">我的宝宝</h1>
-	<?php foreach ($baby_info as $array) {?>
-	<h2><a href="#" class="open-popup"><?php echo $array['baby_name'];?></a></h2>
-<form action="<?php echo $baby_edit?>" method="post"><input type="hidden" name="baby_id" value="<?php echo $array['baby_id']; ?>"><input type="submit" value="删除宝宝" class="button button-danger"></form>
-</div>
+  <?php foreach ($baby_info as $array) {?>
+  <div class="card">
+    <div class="card-header"><a href="#" class="open-popup"><?php echo $array['baby_nickname']; ?></a></div>
+    <div class="card-content">
+      <div class="list-block media-list">
+        <ul>
+          <li class="item-content">
+            <div class="item-inner">
+              <div class="item-title-row">
+                <div class="item-title">宝宝姓名：<?php echo $array['baby_name'];?></div>
+              </div>
+              <div class="item-subtitle">宝宝性别：<?php if ($array['baby_gender'] == "male") {
+                echo "男球";
+              } else {
+                echo "女球";
+              }?>&nbsp&nbsp&nbsp宝宝生日：<?php echo $array['baby_birthday'];?></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="card-footer">
+      <span><form action="<?php echo $baby_edit?>" method="post"><input type="hidden" name="baby_id" value="<?php echo $array['baby_id']; ?>"><input type="submit" value="删除宝宝" class="button button-fill button-danger"></form></span>
+      <span><a href="<?php echo $addbaby; ?>" class="button button-fill button-success">添加宝宝</a></span>
+    </div>
+  </div>
+  <?php }?>            
 </div>
 <div class="popup">
   	<div class="content-block">
@@ -59,8 +80,6 @@
     <div class="row baby-data"><h3>暂无数据</h3></div>
   	</div>
 	</div>
-<?php }?>
-	<div id="add-baby" class="button button-dark" style="text-align: center; margin: 0 auto; margin-top: 22rem; width: 50%"><a href="<?php echo $addbaby; ?>">添加宝宝</a></div>
 <?php }?>
 	</div>
 </div>
